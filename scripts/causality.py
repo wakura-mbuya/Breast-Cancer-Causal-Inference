@@ -76,7 +76,8 @@ class Causal:
             all_edge_attributes=EDGE_STYLE.WEAK,
             prog='fdp',
         )
-        Image(viz.draw(format='png'))
+        return viz
+        
         
     def remove_weak_edges(self, sm, threshold):
         '''
