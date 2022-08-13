@@ -4,7 +4,7 @@
 ## Overview
 > Breast-cancer Diagnostic The second greatest cause of cancer death in women, after lung cancer, is breast cancer, which is the most prevalent invasive cancer in females. Since 1989, significant progress has been made in the detection and treatment of breast cancer. More than 3.1 million Americans have survived breast cancer, according to the American Cancer Society (ACS). About 1 in 38 women will develop breast cancer in their lifetime (2.6 percent ). Early detection of the disease and precise diagnosis both increase the likelihood of long-term survival for a person with breast cancer.The prognosis, or anticipated long-term behavior of the disease, heavily influences the choice of appropriate therapy immediately following surgery.
 
-> The purpose of this project is to extract useful features by using causal inferences and building the model to predict the diagnosis.
+> This project aims at inferring the causation of breast cancer based on the characteristics breast mass. With this information, disease indicators can be predicted and early treatment can be started for a given patient. Early treatment gives the patient a higher chance of survival and cure from breast cancer. This project will build causal graphs from the dataset and use this graphs for analysis. From the causal graphs, we will select features that have direct influence to cancer diagnosis. We will then use this selected features to train a Linear Regression model. We will compare the accuracy of this model with a model that is developed by using all the features in the dataset.
 
 ## Installation
 ```
@@ -33,11 +33,11 @@ The data used for this project was obtained from [Kaggle](https://www.kaggle.com
 
 ## Notebooks
 
-> All the analysis and examples of implementation will be here in the form of .ipynb file
+> All the analysis and examples of implementation can be found here in the form of .ipynb file. The project used 2 jupyter notebooks: <i>eda.ipynb</i> and <i>causal
 
 ## Scripts
 
-> All the modules for the analysis are found here
+> All the modules for the analysis are found here. We defined two scripts that modularizes the code we used in the notebook. The <i>causality.py</i> script includes functions used for causal analysis.<i>utilities.py</i> script include functions for performing comman tasks such as loading data and visualization.
 
 ## Tests
 
