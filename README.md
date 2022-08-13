@@ -37,7 +37,7 @@ The data used for this project was obtained from [Kaggle](https://www.kaggle.com
 
 ## Scripts
 
-> All the modules for the analysis are found here. We defined two scripts that modularizes the code we used in the notebook. The <i>causality.py</i> script includes functions used for causal analysis.<i>utilities.py</i> script include functions for performing comman tasks such as loading data and visualization.
+> All the modules for the analysis are found here. We defined two scripts that modularizes the code we used in the notebook. The causality.py script includes functions used for causal analysis. utilities.py script include functions for performing comman tasks such as loading data and visualization.
 
 ## Tests
 
